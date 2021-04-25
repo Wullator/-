@@ -1,3 +1,4 @@
+#Библиотеки
 from tkinter import *
 from tkinter import messagebox
 from random import randint
@@ -11,6 +12,7 @@ def vo():
    elif gg >= 15:
       messagebox.showinfo("GUI Python", J.get() + " Выиграл")
       #print("Дима gg")
+#Функции
 H = StringVar()
 J = StringVar()
 L1 = Label(r, text = "Первый пункт")
@@ -24,3 +26,4 @@ k.pack()
 b = Button(r, text = "Выбрать!", command = vo)
 b.pack()
 r.mainloop()
+#Окно
